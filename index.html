@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>...</title>
+    <link type="image/x-icon" rel="shortcut icon" href="image/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box__container">
+            <div class="box">
+                <h1 class="box__title">Лабораторная работа №13</h1>
+                <p class="box__text">Вычислить обратное число для А по модулю С:</p>
+                <div class="box__inputs-container">
+                    <label>
+                        Элемент
+                        <input type="number" class="box__input" id="input-a" placeholder="2">
+                    </label>
+                    <label>
+                        Модуль
+                        <input type="number" class="box__input" id="input-b" placeholder="7">
+                    </label>
+                </div>
+                <button class="box__btn" id="btn">Рассчитать</button>
+
+                <div class="answear__text" >
+                    Обратный элемент
+                    <p class="answear" id="answear-box">4</p>
+                </div>
+
+                <p class="error hide-error" id="error"></p>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
